@@ -1,4 +1,4 @@
-package org.SpringSOAPServiceConsume.Client;
+package org.SpringSOAPServiceConsume.client;
 
 import org.greetings.wsdl.GetGreetingRequest;
 import org.greetings.wsdl.GetGreetingResponse;
