@@ -6,7 +6,7 @@
 //
 
 
-package org.greetings.wsdl;
+package greetings.wsdl;
 
 import javax.xml.bind.annotation.XmlRegistry;
 

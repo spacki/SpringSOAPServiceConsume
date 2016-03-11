@@ -1,8 +1,9 @@
 package org.SpringSOAPServiceConsume.client;
 
-import org.greetings.wsdl.GetGreetingRequest;
-import org.greetings.wsdl.GetGreetingResponse;
-import org.greetings.wsdl.Greeting;
+import greetings.wsdl.GetGreetingRequest;
+import greetings.wsdl.GetGreetingResponse;
+import greetings.wsdl.Greeting;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ws.client.core.support.WebServiceGatewaySupport;
@@ -33,7 +34,7 @@ public class GreetingClient extends WebServiceGatewaySupport {
 		Greeting greeting = response.getGreeting();
 
 		if (!greeting.equals(null)) {
-			log.info(greeting.toString());
+			log.info(String.format("Greeting [ date = %s, content = %s]",greeting.getDate(),greeting.getContent()));
 		} else {
 			log.info("No greeting received");
 		}
