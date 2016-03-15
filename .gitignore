@@ -10,3 +10,9 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+SpringSOAPServiceConsume/src/main/java/META-INF/sun-jaxb.episode
+SpringSOAPServiceConsume/src/main/java/greetings/wsdl/GetGreetingRequest.java
+SpringSOAPServiceConsume/src/main/java/greetings/wsdl/GetGreetingResponse.java
+SpringSOAPServiceConsume/src/main/java/greetings/wsdl/Greeting.java
+SpringSOAPServiceConsume/src/main/java/greetings/wsdl/ObjectFactory.java
+SpringSOAPServiceConsume/src/main/java/greetings/wsdl/package-info.java
