@@ -54,6 +54,7 @@
 					</executions>
 					<configuration>
 						<schemaLanguage>WSDL</schemaLanguage>
+						<generateDirectory>src/main/java</generateDirectory>
 						<generatePackage>greetings.wsdl</generatePackage>
 						<schemas>
 							<schema>
