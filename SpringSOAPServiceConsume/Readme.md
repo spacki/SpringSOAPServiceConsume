@@ -1,0 +1,1 @@
+https://howtodevelopit.wordpress.com/2016/03/11/how-to-consume-soap-web-service-using-spring/
